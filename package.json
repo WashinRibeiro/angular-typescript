@@ -1,0 +1,24 @@
+{
+  "name": "dio-typescript-para-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WashinRibeiro/dio-typescript-para-angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WashinRibeiro/dio-typescript-para-angular/issues"
+  },
+  "homepage": "https://github.com/WashinRibeiro/dio-typescript-para-angular#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
