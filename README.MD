@@ -29,4 +29,11 @@ Podemos também configurar o script que vamos rodar para compilar nosso projeto 
 - Com o nome "start" podemos colocar os comando "npx tsc && node build/index.js"
 Dessa forma, sempre que rodarmos "npm start", será rodado por trás nossos comandos configurados
 
+---
 
+Vamos fazer um servidor para rodar nossa aplicação TS sem precisar buildar primeiramente para JS
+- Primeiro instalamos a dependência de desenvolvimento ts-node-dev: npm install ts-node-dev -D 
+- Após isso, basta configurar nos scripts no package.json um start:dev com a seguinte configuração:     
+    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+
+- OBS.: O ts-node-dev é um servidor local que entende em typescript
