@@ -37,3 +37,7 @@ Vamos fazer um servidor para rodar nossa aplicação TS sem precisar buildar pri
     "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
 
 - OBS.: O ts-node-dev é um servidor local que entende em typescript
+
+---
+
+O descorator é algo muito utilizado nos frameworks, mas ainda é algo muito superficial no TS. Para ativar a propriedade de decorators precisamos ativar a propriedade de "experimentalDecorators"
